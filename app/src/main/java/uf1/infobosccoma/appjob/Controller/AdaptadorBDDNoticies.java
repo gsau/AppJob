@@ -56,12 +56,12 @@ public class AdaptadorBDDNoticies extends BaseAdapter {
         Oferta t = new Oferta();
         if (dades.moveToPosition(pos)) {
             t.setTitol(dades.getString(0));
-            t.setCategoria(dades.getString(1));
-            t.setDataNoticia(dades.getString(2));
-            t.setEmailEmpresa(dades.getString(3));
-            t.setTelefon(dades.getString(4));
-            t.setDescripcio(dades.getString(5));
-            t.setTipusContracte(dades.getString(6));
+            t.setCategoria(dades.getString(2));
+            t.setDataNoticia(dades.getString(1));
+            t.setEmailEmpresa(dades.getString(4));
+            t.setTelefon(dades.getString(6));
+            t.setDescripcio(dades.getString(3));
+            t.setTipusContracte(dades.getString(5));
         }
         return t;
     }

@@ -8,6 +8,8 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 import uf1.infobosccoma.appjob.R;
@@ -33,16 +35,16 @@ public class UltimesNoticies extends ActionBarActivity {
             refreshData();
             db.close();
         }
-        /*llista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        llista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent intent=new Intent(getBaseContext(),DetallsOferta.class);
                 Bundle b=new Bundle();
-                b.putSerializable("noticia", dades.get(position));
+                b.putSerializable("noticia", adapter.getItem(position));
                 intent.putExtras(b);
                 startActivity(intent);
             }
-        });*/
+        });
     }
 
     void refreshData() {
