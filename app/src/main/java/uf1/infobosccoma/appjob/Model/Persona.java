@@ -1,4 +1,4 @@
-package uf1.infobosccoma.appjob;
+package uf1.infobosccoma.appjob.Model;
 
 /**
  * Created by Gerard on 06/02/2015.

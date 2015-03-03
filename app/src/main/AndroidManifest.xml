@@ -20,7 +20,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".AppJobRegistra"
+            android:name=".Controller.AppJobRegistra"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,7 +29,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity_appJob"
+            android:name=".Controller.MainActivity_appJob"
             android:label="@string/title_activity_app_job_registra" >
         </activity>
 
@@ -38,32 +38,32 @@
             android:value="@integer/google_play_services_version" />
 
         <activity
-            android:name=".UltimesNoticies"
+            android:name=".Controller.UltimesNoticies"
             android:label="@string/title_activity_ultimes_noticies" >
         </activity>
         <activity
-            android:name=".AfegirOferta"
+            android:name=".Controller.AfegirOferta"
             android:label="@string/title_activity_afegir_oferta" >
         </activity>
         <activity
-            android:name=".DetallsOferta"
+            android:name=".Controller.DetallsOferta"
             android:label="@string/title_activity_detalls_oferta" >
         </activity>
         <activity
-            android:name=".EnviamentCorreu"
+            android:name=".Controller.EnviamentCorreu"
             android:label="@string/title_activity_enviament_correu" >
         </activity>
         <activity
-            android:name=".InfoApp"
+            android:name=".Controller.InfoApp"
             android:label="@string/title_activity_info_app" >
         </activity>
         <activity
-            android:name=".llistaNoticies"
+            android:name=".Controller.llistaNoticies"
             android:label="@string/title_activity_llista_noticies"
-            android:parentActivityName=".UltimesNoticies" >
+            android:parentActivityName=".Controller.UltimesNoticies" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="uf1.infobosccoma.appjob.UltimesNoticies" />
+                android:value=".Controller.UltimesNoticies" />
         </activity>
     </application>
 
