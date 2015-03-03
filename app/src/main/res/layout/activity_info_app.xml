@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="uf1.infobosccoma.appjob.InfoApp"
+    android:background="#ff000000"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="333dp"
+        android:layout_height="155dp"
+        android:id="@+id/imViewInfoApp"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.11"></LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Nom: AppJob"
+        android:id="@+id/txtNomInfoApp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#fffefdff" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="18dp"></LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Versió:1.0"
+        android:id="@+id/txtVersioInfoApp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#fffbfbff" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="18dp"></LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Autor: Gerard Sau"
+        android:id="@+id/txtAutorInfoApp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#fffffeec" />
+</LinearLayout>

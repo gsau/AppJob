@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity_appJob">
+    <item android:id="@+id/action_afegirOfert" android:title="@string/action_settings" android:icon="@android:drawable/ic_input_add"
+    android:orderInCategory="100" app:showAsAction="ifRoom" />
+    <item android:id="@+id/action_ajuda"
+        android:title="Ajuda"
+        android:icon="@android:drawable/ic_menu_help"
+        android:orderInCategory="3"
+        app:showAsAction="ifRoom"/>
+</menu>
