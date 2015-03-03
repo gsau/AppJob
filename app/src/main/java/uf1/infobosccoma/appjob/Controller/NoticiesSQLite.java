@@ -1,4 +1,4 @@
-package uf1.infobosccoma.appjob;
+package uf1.infobosccoma.appjob.Controller;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

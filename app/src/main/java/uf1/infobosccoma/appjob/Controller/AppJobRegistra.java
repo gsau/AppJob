@@ -1,4 +1,4 @@
-package uf1.infobosccoma.appjob;
+package uf1.infobosccoma.appjob.Controller;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,6 +10,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import uf1.infobosccoma.appjob.Model.Persona;
+import uf1.infobosccoma.appjob.R;
 
 
 public class AppJobRegistra extends ActionBarActivity implements View.OnClickListener {

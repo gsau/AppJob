@@ -1,4 +1,4 @@
-package uf1.infobosccoma.appjob;
+package uf1.infobosccoma.appjob.Controller;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+
+import uf1.infobosccoma.appjob.R;
 
 
 public class EnviamentCorreu extends ActionBarActivity implements View.OnClickListener {

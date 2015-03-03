@@ -1,4 +1,4 @@
-package uf1.infobosccoma.appjob;
+package uf1.infobosccoma.appjob.Controller;
 
 /**
  * Created by Gerard on 26/02/2015.
@@ -11,6 +11,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
+
+import uf1.infobosccoma.appjob.Model.Oferta;
+import uf1.infobosccoma.appjob.R;
 
 public class AdaptadorBDDNoticies extends BaseAdapter {
     private Activity context;

@@ -1,4 +1,4 @@
-package uf1.infobosccoma.appjob;
+package uf1.infobosccoma.appjob.Controller;
 
 import android.content.Intent;
 import android.database.Cursor;
@@ -9,6 +9,8 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.ListView;
+
+import uf1.infobosccoma.appjob.R;
 
 
 public class UltimesNoticies extends ActionBarActivity {

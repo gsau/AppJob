@@ -1,4 +1,4 @@
-package uf1.infobosccoma.appjob;
+package uf1.infobosccoma.appjob.Controller;
 
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
@@ -9,6 +9,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+
+import uf1.infobosccoma.appjob.Model.Oferta;
+import uf1.infobosccoma.appjob.R;
 
 
 public class AfegirOferta extends ActionBarActivity implements View.OnClickListener {

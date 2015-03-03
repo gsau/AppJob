@@ -1,9 +1,11 @@
-package uf1.infobosccoma.appjob;
+package uf1.infobosccoma.appjob.Controller;
 
 import android.content.ContentValues;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
+
+import uf1.infobosccoma.appjob.Model.Oferta;
 
 /**
  * Created by Gerard on 24/02/2015.

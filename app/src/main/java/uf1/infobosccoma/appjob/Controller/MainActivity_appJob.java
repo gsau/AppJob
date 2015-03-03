@@ -1,4 +1,4 @@
-package uf1.infobosccoma.appjob;
+package uf1.infobosccoma.appjob.Controller;
 
 import android.content.Intent;
 import android.database.Cursor;
@@ -11,6 +11,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
+
+import uf1.infobosccoma.appjob.Model.Oferta;
+import uf1.infobosccoma.appjob.R;
 
 
 public class MainActivity_appJob extends ActionBarActivity implements View.OnClickListener {

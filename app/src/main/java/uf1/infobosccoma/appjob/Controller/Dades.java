@@ -1,6 +1,9 @@
-package uf1.infobosccoma.appjob;
+package uf1.infobosccoma.appjob.Controller;
 
 import java.util.ArrayList;
+
+import uf1.infobosccoma.appjob.Model.Oferta;
+import uf1.infobosccoma.appjob.Model.Persona;
 
 /**
  * Created by Gerard on 12/02/2015.
